@@ -70,7 +70,7 @@ if __name__ == "__main__":
         dir_path = 'F:/av'
     elif input_str == 'av-video.csv':
         csv_path = '../data/av-video.csv'
-        dir_path = 'F:/hobby/video'
+        dir_path = 'F:/kuguatang/video'
     elif input_str == 'avimg.csv':
         csv_path = '../data/avimg.csv'
         dir_path = 'F:/avimg/'
