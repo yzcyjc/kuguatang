@@ -31,7 +31,7 @@ class dic:
         也就是说，新的内容将会被写入到已有内容之后。如果该文件不存在，创建新文件进行写入。
         '''
         if self.s == 0:
-            f2 = open('./data/pwds.txt',
+            f2 = open('../data/pwds.txt',
                       mode='a', encoding='utf-8')
             print('{} 找不到===》追加写入文件中===》写入成功，现在密码总个数为 {} 个'.format(self.t, self.num))
             print('+'*100)
