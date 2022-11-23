@@ -67,13 +67,13 @@ if __name__ == "__main__":
 
     if input_str == 'av.csv':
         csv_path = '../data/av.csv'
-        dir_path = 'F:/av'
+        dir_path = 'E:/av'
     elif input_str == 'av-video.csv':
         csv_path = '../data/av-video.csv'
-        dir_path = 'F:/kuguatang/video'
+        dir_path = 'E:/kuguatang/video'
     elif input_str == 'avimg.csv':
         csv_path = '../data/avimg.csv'
-        dir_path = 'F:/avimg/'
+        dir_path = 'E:/avimg/'
     else:
         print('输入异常，请重新输入：')
 
