@@ -35,6 +35,7 @@ class hash:
             wr.writerow(self.header)
 
     def hash_csv_write(self):
+        numm = 1
         FileList = os.listdir(self.dir_path)  # 获取该目录下的文件列表
         for i in FileList:
             file_path = self.dir_path + '\\'+i
@@ -42,7 +43,9 @@ class hash:
             st = i+',' + self.hash_sha256(file_path)+'\n'
             with open(csv_path, 'a', encoding='utf-8') as f3:  # 追加写入文件
                 f3.write(st)
+            print('******：{} / {}'.format(numm, len(FileList)))
             print('-'*100)
+            numm += 1
 
     def hash_csv_read(self):
         df = pd.read_csv(self.csv_path)
