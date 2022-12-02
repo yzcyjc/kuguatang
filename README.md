@@ -13,5 +13,3 @@
 - [电视连续剧记录](TV-series.md)
 
 - [动漫记录](Animation.md)
-
-> Date：2022-11-26
