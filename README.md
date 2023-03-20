@@ -4,12 +4,12 @@
 
 - [户外足迹](Footprints.md)
 
-- [骑行历史记录](Ride.md)
+- [骑行历史](Ride.md)
 
-- [跑步历史记录](Run.md)
+- [跑步历史](Run.md)
 
-- [电影记录](Film.md)
+- [电影](Film.md)
 
-- [电视连续剧记录](TV-series.md)
+- [电视连续剧](TV-series.md)
 
-- [动漫记录](Animation.md)
+- [动漫](Animation.md)
