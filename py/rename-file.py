@@ -14,10 +14,12 @@ def test(dirname, qz):
         os.rename('{}/{}'.format(dirname, FileName),
                   '{}/{}'.format(dirname, newname))  # 文件重命名
         print('{}===正在修改文件名===》{}'.format(FileName, newname))
-    print('批量文件重命名完成，总共个重命名了 {} 个文件'.format(nums-1))
+    print('批量文件重命名完成，总共个重命名了 {} 个文件'.format(nums - 1))
 
 
 if __name__ == "__main__":
     dirname = input('请输入要批量修改文件名的目录路径：')  # 要修改文件名的目录的路径
-    qz = input('请设定修改后的文件名的前缀：')      # 设定修改后的文件名前缀字符串
+    if len(dirname) == 0:
+        dirname = 'E:\\kuguatang\\video'
+    qz = input('请设定修改后的文件名的前缀：')  # 设定修改后的文件名前缀字符串
     test(dirname, qz)
