@@ -1,0 +1,30 @@
+# VS Code 插件
+
+- Chinese
+- Code Runner
+- Excel Viewer
+- Flake8
+- Git Blame
+- Git Graph
+- Git History
+- GitLens
+- Go
+- Julia
+- Python
+- open in browser
+- Path Interllisense
+- WSL
+- Debugger for Chrome
+- LeetCode
+- Brackee Pair Colorizer 2
+- VS Code-icons
+- One Dark Pro
+- Code Snap
+- Image previen
+- Better Comments
+- Colorize
+- Regex Previewer
+- CSS peek
+- VS Code Counter
+- Time Master
+- Impoer Cost
