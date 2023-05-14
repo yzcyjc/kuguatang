@@ -16,7 +16,7 @@
 - Scrapy
 - bs4
 - Scrapy
-- selenium
+- selenium / Playwright
 - PyMySQL
 - redis-py
 - PyMongo
