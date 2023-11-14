@@ -2,8 +2,6 @@
 
 ##### [网络书单](./Fiction.md)
 
-##### [户外](./Outdoor.md)
-
 ##### [骑行](./Ride.md)
 
 ##### [跑步](./Run.md)
@@ -14,4 +12,4 @@
 
 ##### [动漫](Animation.md)
 
-> LastDate：2023.10.31
+> LastDate：2023.11.14
