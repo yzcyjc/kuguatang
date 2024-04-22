@@ -68,12 +68,22 @@ if __name__ == "__main__":
 
     input_str = input('请指定输出文件：')
 
+    # E盘符分区下 av 文件夹
     if input_str == 'av.csv':
         csv_path = '../data/av.csv'
         dir_path = 'E:/av'
+    # kuguatang 当前文件夹下 video 文件夹
     elif input_str == 'av-video.csv':
         csv_path = '../data/av-video.csv'
         dir_path = '../video'
+    # kuguatang 当前文件夹下 image 文件夹
+    elif input_str == 'image.csv':
+        csv_path = '../data/image.csv'
+        dir_path = '../image'
+    # E盘符分区下 images 文件夹
+    elif input_str == 'yuanshen-images.csv':
+        csv_path = '../data/yuanshen-images.csv'
+        dir_path = 'E:/images'
     else:
         print('输入异常，请重新输入：')
 
